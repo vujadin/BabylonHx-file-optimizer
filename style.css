@@ -1,0 +1,26 @@
+body { font: normal 16px/20px Consolas, Helvetica, sans-serif; background: rgb(237, 237, 236); margin: 0; padding: 0; border-top: 1px solid #fff; }
+#centralContainer { margin: 100px auto; position: relative; width: 583px; }
+#title { position: absolute; top: -85px; left: 180px; }
+#floatsTo { font-size: 11px; position: absolute; top: -10px; left: 20px; }
+#selFloatsTo { font-size: 11px; }
+#optimizeOptions { font-size: 11px; position: absolute; top: -10px; left: 329px; overflow: hidden; white-space: nowrap; }
+#optimizeOptions input { vertical-align: top; margin-left: 0px;}
+#wrapper { margin: 0 auto; }
+h1 { padding-top: 10px; }
+#selectFile { color: #333; background: #7bb3f8; width: 340px; font-size: 12px; padding: 0px; margin: 0px; position: absolute; top: 10px; left: 260px; padding-left: 5px; float: left; white-space: nowrap; overflow: hidden; }
+#selectFile input { color: #333; width: 200px; font-size: 10px; padding: 0px; margin: 0px; padding-top: 1px; }
+#status { color: #fff; background: #ccc; width: 240px; font-size: 12px; padding: 0px; margin: 0px; position: absolute; top: 10px; left: 20px; padding-left: 5px; }
+#status.fail { background: #c00; }
+#status.success { background: #0c0; }
+#status.offline { background: #c00; }
+#status.online { background: #0c0; }
+#original { border: 1px dashed #aaa; background: #FFE992; top: 30px; left: 20px; width: 583px; height: 70px; position: absolute; font-size: 11px; min-width: 50px; }
+#original.hover { border: 10px dashed #333; }
+#originallength { padding: 2px; border: solid 1px #aaa; background: #fff; font-family: Consolas, Arial; font-size: 11px; line-height: 10px; text-align: right; }
+#original.processed { border: solid 1px #999; }
+#litelength { padding: 2px; border: solid 1px #aaa; background: #fff; font-family: Consolas, Arial; font-size: 11px; line-height: 10px; }
+span.topLeft { padding: 10px 0 0 10px; clear: both; display: block; }
+#saveLiteFile { font-size: 12px; font-family: Consolas, Arial; border: solid 1px #aaa; position: absolute; top: 23px; right: 140px; }
+#showOnSuccess { display: none; }
+#dropHereText { text-align: center; color: #aaa; }
+#liteFormatDesc { position: absolute; top: 110px; border: solid 1px #aaa; width: 563px; padding: 10px; font-size: 10px; left: 20px; overflow: auto; height: 170px; background: #fff; line-height: 12px; overflow: hidden; }
